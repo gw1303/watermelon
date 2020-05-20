@@ -11,30 +11,30 @@ def keyboard(request):
         'type': 'text'
     })
 
-@csrf_exempt
-def message(request):
 
+def message(request):
     answer = ((request.body).decode('utf-8'))
-    return_json_str = json.loads(answer)
+    return_json_str = json.loads(answer, encoding='utf-8')
     return_str = return_json_str['userRequest']['utterance']
 
+ 
     if return_str == 'test':
-        return JsonResponse({
-            'version': "2.0",
-            'template': {
-                'outputs': [{
-                    'simpleText': {
-                        'text': "test ok"
-                    }
-                }],
-                'quickReplies': [{
-                    'label': '처음으로',
-                    'action': 'message',
-                    'messageText': '처음으로'
-                }]
+      return JsonResponse({
+        'version': "2.0",
+        'template': {
+          'outputs': [{
+            'simpleText': {
+            'text': 'Result: Test Success'
             }
-        })
-
+          }],
+          'quickReplies': [{
+            'label': 'Going back',
+            'action': 'message',
+            'messageText': 'Going back'
+          }]
+        }
+      })
+	
 
 def requestTest(request) :
     str = '테스트입니다'

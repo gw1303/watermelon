@@ -295,3 +295,31 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/gw1303/watermelon.git
 git push -u origin master
+ls
+cd watermelon_base/
+ls
+source watermelon_venv/bin/activate
+ls
+cd
+git pull
+cd 
+cd watermelon_base/watermelon_project/watermelon_project/
+ls
+vi urls.py 
+git pull
+vi urls.py 
+sudo apachectl -k restart
+git pull
+sudo apachectl -k restart
+vi urls.py 
+cd ..
+cd watermelon_app/
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+cd
+git add .
+git commit -m 'console test'
+git push
+cd

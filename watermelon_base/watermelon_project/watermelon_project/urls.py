@@ -24,8 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path(r'keyboard/', views.keyboard),
-    path(r'message', views.message)
+    path(r'message', views.message),
 
-    path(r'requestTest', views.requestTest)
+    path(r'requestTest', views.requestTest),
 
 ]
