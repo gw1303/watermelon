@@ -34,7 +34,7 @@ def message(request):
             'template': {
                 'outputs': [{
                     'simpleText': {
-                        'text': return_json_str['userRequest']['utterance']
+                        'text': return_str
                 }
                 }]
             }
