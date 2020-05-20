@@ -323,3 +323,70 @@ git add .
 git commit -m 'console test'
 git push
 cd
+ls
+cd watermelon_base/watermelon_project/watermelon_project/
+ls
+vi urls.py 
+cd ..
+cd watermelon_app/
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+cd ..
+cd watermelon_project/
+vi urls.py 
+sudo apachectl -k restart
+cd ..
+cd watermelon_app/
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+python3 views.py
+vi views.py 
+source watermelon_base/watermelon_venv/bin/activate
+cd watermelon_base/watermelon_project/watermelon_app/
+vi views.py 
+rm views.py.swp
+ll -all
+rm .views.py.swp 
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+source watermelon_base/watermelon_venv/bin/activate
+gid add .
+git add .
+git commit -m 'update'
+git push
+cd watermelon_base/watermelon_project/watermelon_app/
+vi views.py 
+sudo apachectl -k restart
+pyhon3 views.py 
+python3 views.py 
+vi views.py 
+python3 views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+python3 --version

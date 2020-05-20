@@ -12,10 +12,10 @@
 
 # Command Line History (newest to oldest):
 :wq
-:Wq
-:wq!
 :q
 :q!
+:Wq
+:wq!
 :ㅈㅂ
 :set encoding
 :1,.d
@@ -30,55 +30,56 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	    return_str = json.loads(request.body.docode('utf-8'))['userRequest']['utterance']
-"2	LINE	0
+"1	LINE	0
 	        })
+"2	LINE	0
+	            }
 "3	LINE	0
-		    }
+	                }]
 "4	LINE	0
-			'buttons':'Going back'
+	                    'messageText': '처음으로'
 "5	LINE	0
-			'type':'buttons',
+	                    'action': 'message',
 "6	LINE	0
-		    'keyboard':{
+	                    'label': '처음으로',
 "7	LINE	0
-		    },
+	                'quickReplies': [{
 "8	LINE	0
-			'text':'Result : test succes'
+	                }],
 "9	LINE	0
-		    'message':{
-"-	CHAR	0
-	n
+	                    }
+""-	CHAR	0
+	 
 
 # File marks:
-'0  1  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'1  15  20  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'2  16  30  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'3  42  15  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'4  41  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'5  20  28  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'6  20  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'7  2  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'8  44  11  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'9  31  5  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'0  20  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'1  24  4  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'2  1  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'3  43  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'4  15  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'5  15  35  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'6  32  0  /etc/apache2/sites-available/000-default.conf
+'7  40  8  /etc/apache2/sites-available/000-default.conf
+'8  125  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+'9  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 
 # Jumplist (newest first):
+-'  20  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  1  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  15  20  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  16  30  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  42  15  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  41  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  20  28  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  2  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  44  11  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  31  5  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  14  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  24  4  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  43  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  15  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  32  0  /etc/apache2/sites-available/000-default.conf
+-'  1  0  /etc/apache2/sites-available/000-default.conf
+-'  40  8  /etc/apache2/sites-available/000-default.conf
+-'  125  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  14  24  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  29  43  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 -'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
--'  46  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  39  25  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  38  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  48  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  17  25  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  11  8  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  12  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  25  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
@@ -97,11 +98,8 @@
 -'  1532  0  /var/log/apache2/error.log
 -'  1  0  /var/log/apache2/error.log
 -'  2  0  /var/log/apache2/error.log
--'  27  0  /etc/apache2/sites-available/000-default.conf
--'  1  0  /etc/apache2/sites-available/000-default.conf
+-'  43  0  /etc/apache2/sites-available/000-default.conf
 -'  18  0  ~/watermelon_base/watermelon_project/watermelon_project/wsgi.py
--'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  62  4  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.py
@@ -130,44 +128,46 @@
 -'  7  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/wsgi.py
--'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  62  4  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.py
 -'  1  0  /etc/apache2/wsgi.py
 -'  7  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/ports.conf
--'  30  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  111  22  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  7  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/wsgi.py
--'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  62  4  /etc/apache2/mods-enabled/wsgi.conf
--'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  62  4  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.py
 -'  1  0  /etc/apache2/wsgi.py
 -'  7  0  /etc/apache2/ports.conf
 -'  1  0  /etc/apache2/ports.conf
--'  30  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  111  22  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
--'  27  0  /etc/apache2/sites-available/000-default.conf
+-'  62  4  /etc/apache2/mods-enabled/wsgi.conf
+-'  1  0  /etc/apache2/mods-enabled/wsgi.conf
+-'  1  0  /etc/apache2/mods-enabled/wsgi.py
+-'  29  43  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+-'  29  43  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+-'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+-'  125  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  33  8  /etc/apache2/sites-available/000-default.conf
+-'  32  0  /etc/apache2/sites-available/000-default.conf
 -'  1  0  /etc/apache2/sites-available/000-default.conf
--'  27  0  /etc/apache2/sites-available/000-default.conf
--'  1  0  /etc/apache2/sites-available/000-default.conf
+-'  40  8  /etc/apache2/sites-available/000-default.conf
+-'  125  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
 -'  123  0  ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+-'  22  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  32  0  /etc/apache2/sites-available/000-default.conf
+-'  23  4  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 
 # History of marks within files (newest to oldest):
 
 > ~/watermelon_base/watermelon_project/watermelon_app/views.py
-	"	1	0
-	^	15	21
-	.	17	56
+	"	20	0
+	^	20	0
+	.	19	39
 	+	3	10
 	+	12	0
 	+	12	21
@@ -209,57 +209,127 @@
 	+	12	0
 	+	12	0
 	+	12	0
-	+	38	0
-	+	38	0
-	+	38	17
-	+	38	0
-	+	38	32
-	+	38	29
-	+	38	18
-	+	38	43
-	+	38	0
-	+	38	0
+	+	14	0
+	+	14	0
+	+	14	17
+	+	14	0
+	+	14	32
+	+	14	29
+	+	14	18
+	+	14	43
+	+	14	0
+	+	14	0
 	+	14	46
 	+	14	0
 	+	14	30
-	+	42	40
-	+	40	30
-	+	42	26
+	+	45	40
+	+	18	30
+	+	45	26
 	+	14	42
 	+	14	16
 	+	14	2
 	+	14	9
 	+	14	0
-	+	15	21
-	+	36	0
-	+	44	11
-	+	16	0
+	+	14	21
+	+	14	0
+	+	14	26
+	+	14	0
+	+	14	24
+	+	14	0
+	+	15	0
+	+	15	0
+	+	15	25
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	35
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	5
+	+	15	0
+	+	41	0
+	+	19	7
+	+	41	5
+	+	45	0
+	+	44	3
+	+	19	39
+	e	19	3
+
+> /etc/apache2/sites-available/000-default.conf
+	"	32	0
+	^	32	1
+	.	32	0
+	+	12	1
+	+	12	13
+	+	43	0
+	+	12	0
+	+	12	60
+	+	12	172
+	+	1	0
+	+	43	0
+	+	13	0
+	+	12	37
+	+	12	37
+	+	12	0
+	+	12	0
+	+	13	0
+	+	13	1
+	+	13	2
+	+	13	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	14	19
+	+	25	0
+	+	15	0
 	+	17	0
-	+	18	59
-	+	20	3
-	+	21	3
-	+	22	5
-	+	23	7
-	+	24	7
-	+	25	9
-	+	26	11
-	+	28	11
-	+	29	9
-	+	34	9
-	+	30	9
-	+	31	11
-	+	32	11
-	+	33	11
-	+	35	7
-	+	36	5
-	+	20	0
-	+	18	0
-	+	17	0
-	+	16	1
-	+	17	2
-	+	18	3
-	+	42	26
-	+	17	56
+	+	18	2
+	+	19	2
+	+	21	2
+	+	22	3
+	+	23	6
+	+	24	3
+	+	25	2
+	+	43	0
+	+	44	0
+	+	46	0
+	+	43	0
+	+	41	0
+	+	40	0
+	+	35	0
+	+	38	0
+	+	39	9
+	+	40	0
+	+	39	8
+	+	27	76
+	+	32	0
+	+	27	0
+	+	30	0
+	+	31	8
+	+	32	0
+
+> ~/watermelon_base/watermelon_project/watermelon_project/settings.py
+	"	125	0
+	^	125	0
+	.	126	0
+	+	28	18
+	+	40	0
+	+	41	20
+	+	111	22
+	+	28	20
+	+	126	0
 
 > ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 	"	29	43
@@ -322,55 +392,6 @@
 	+	1	0
 	+	1	0
 	+	1	6
-
-> /etc/apache2/sites-available/000-default.conf
-	"	27	0
-	.	27	0
-	+	12	1
-	+	12	13
-	+	27	0
-	+	12	0
-	+	12	60
-	+	12	172
-	+	1	0
-	+	27	0
-	+	13	0
-	+	12	37
-	+	12	37
-	+	12	0
-	+	12	0
-	+	13	0
-	+	13	1
-	+	13	2
-	+	13	0
-	+	13	0
-	+	12	0
-	+	13	0
-	+	14	19
-	+	25	0
-	+	15	0
-	+	17	0
-	+	18	2
-	+	19	2
-	+	21	2
-	+	22	3
-	+	23	6
-	+	24	3
-	+	25	2
-	+	27	0
-	+	28	0
-	+	30	0
-	+	27	0
-
-> ~/watermelon_base/watermelon_project/watermelon_project/settings.py
-	"	123	0
-	^	30	0
-	.	28	20
-	+	28	18
-	+	40	0
-	+	41	20
-	+	111	22
-	+	28	20
 
 > /etc/apache2/mods-enabled/wsgi.conf
 	"	62	4
