@@ -26,4 +26,6 @@ urlpatterns = [
     path(r'keyboard/', views.keyboard),
     path(r'message', views.message)
 
+    path(r'requestTest', views.requestTest)
+
 ]
