@@ -11,13 +11,13 @@ def keyboard(request):
         'type': 'text'
     })
 
-
+@csrf_exempt
 def message(request):
-    answer = ((request.body).decode('utf-8'))
-    return_json_str = json.loads(answer, encoding='utf-8')
+    answer = request.POST
+    return_json_str = json.loads(answer)
     return_str = return_json_str['userRequest']['utterance']
 
- 
+
     if return_str == 'test':
       return JsonResponse({
         'version': "2.0",
@@ -37,9 +37,9 @@ def message(request):
 	
 
 def requestTest(request) :
-    str = '테스트입니다'
+    
 
-    return HttpResponse(str)
+    print(request)
 
 
 
