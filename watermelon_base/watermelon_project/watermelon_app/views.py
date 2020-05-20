@@ -15,19 +15,30 @@ def keyboard(request):
 def message(request):
     answer = ((request.body).decode('utf-8'))
     return_json_str = json.loads(answer)
-#    return_str = return_json_str['userRequest']['utterance']
+    return_str = return_json_str['userRequest']['utterance']
 
-    # if return_str == 'test':
-    return JsonResponse({
-        'version': "2.0",
-        'template': {
-            'outputs': [{
-                'simpleText': {
-                    'text': return_json_str['userRequest']['utterance']
+    if return_str == 'test':
+        return JsonResponse({
+            'version': "2.0",
+            'template': {
+                'outputs': [{
+                    'simpleText': {
+                        'text': 'test 성공입니다.'
+                    }
+                }]
+            }
+        })
+    else :
+        return JsonResponse({
+            'version': "2.0",
+            'template': {
+                'outputs': [{
+                    'simpleText': {
+                        'text': return_json_str['userRequest']['utterance']
                 }
-            }]
-        }
-    })
+                }]
+            }
+        })
 
 
 	
