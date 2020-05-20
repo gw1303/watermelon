@@ -35,3 +35,10 @@ def message(request):
             }
         })
 
+
+def requestTest(request) :
+
+    return request.body
+
+
+
