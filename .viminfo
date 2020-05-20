@@ -12,9 +12,9 @@
 
 # Command Line History (newest to oldest):
 :wq
+:q
 :Wq
 :q!
-:q
 :ㅈㅂ
 :set encoding
 :wq!
@@ -52,26 +52,27 @@
 	n
 
 # File marks:
-'0  18  38  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'1  37  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'2  38  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'3  38  18  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'4  38  4  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'5  38  17  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'6  11  8  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'7  29  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
-'8  12  12  ~/watermelon_base/watermelon_project/watermelon_app/views.py
-'9  12  13  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'0  39  25  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'1  38  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'2  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+'3  18  38  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'4  37  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'5  38  18  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'6  38  4  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'7  38  17  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'8  11  8  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+'9  29  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 
 # Jumplist (newest first):
--'  18  38  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  39  25  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  1  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
--'  37  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  38  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+-'  18  38  ~/watermelon_base/watermelon_project/watermelon_app/views.py
+-'  37  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  11  8  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  12  0  ~/watermelon_base/watermelon_project/watermelon_app/views.py
 -'  29  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
--'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 -'  25  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 -'  27  4  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 -'  28  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
@@ -157,17 +158,15 @@
 -'  1  0  /etc/apache2/mods-enabled/wsgi.conf
 -'  1  0  /etc/apache2/mods-enabled/wsgi.py
 -'  1  0  /etc/apache2/wsgi.py
--'  29  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 -'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
--'  25  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
--'  27  4  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
+-'  1  0  ~/watermelon_base/watermelon_project/watermelon_project/urls.py
 
 # History of marks within files (newest to oldest):
 
 > ~/watermelon_base/watermelon_project/watermelon_app/views.py
-	"	18	38
-	^	18	39
-	.	17	30
+	"	39	25
+	^	39	26
+	.	42	26
 	+	3	10
 	+	12	0
 	+	12	21
@@ -222,9 +221,12 @@
 	+	16	46
 	+	36	0
 	+	17	30
+	+	42	40
+	+	40	30
+	+	42	26
 
 > ~/watermelon_base/watermelon_project/watermelon_project/urls.py
-	"	29	0
+	"	1	0
 	^	29	1
 	.	27	9
 	+	19	31

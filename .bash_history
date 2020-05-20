@@ -208,3 +208,90 @@ cd watermelon_p
 ls
 cd watermelon_project/
 ls
+source watermelon_base/watermelon_venv/bin/activate
+ls
+cs watermelon_base/
+cd watermelon_base/watermelon_project/watermelon_project/
+ls
+cd ..
+cd watermelon_app/
+ls
+vi views.py 
+ls
+vi views.py 
+ec2-3-34-4-194.ap-northeast-2.compute.amazonaws.com
+cd .. 
+cd watermelon_project/
+ls
+vi urls.py 
+cd .. 
+cd watermelon_app/
+vi views.py 
+cd .. 
+cd watermelon_project/
+vi urls.py 
+cd ..
+cd watermelon_app/
+ls
+vi views.py 
+python3 views.py 
+ls
+python3 views.py 
+vi views.py 
+sudo apachectl -k restart
+cd ..
+cd watermelon_project/
+vi urls.py 
+sudo apachectl -k restart
+vi urls.py 
+cd ..
+cd watermelon_project/
+ls
+cd ..
+cd watermelon_app
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+cd ..
+cd watermelon_project/
+ls
+vi urls.py 
+sudo apachectl -k restart
+cd ..
+cd watermelon_app/
+vi views.py 
+cd watermelon_app/
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+vi views.py 
+sudo apachectl -k restart
+cd
+ls
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/gw1303/watermelon.git
+git push -u origin master

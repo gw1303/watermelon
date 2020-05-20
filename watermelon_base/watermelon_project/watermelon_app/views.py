@@ -37,8 +37,9 @@ def message(request):
 
 
 def requestTest(request) :
+    str = '테스트입니다'
 
-    return HttpResponse(request.body)
+    return HttpResponse(str)
 
 
 
